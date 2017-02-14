@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         case Add = "+"
         case Empty = "Empty"
     }
-
+    
     var currentOperation = Operation.Empty
     var leftVS = ""
     var rightVS = ""
@@ -78,6 +78,7 @@ class ViewController: UIViewController {
     
     func processOperation(operation: Operation){
         playSound()
+        
         if currentOperation != Operation.Empty{
             
             if runningNumber != ""{
@@ -86,26 +87,40 @@ class ViewController: UIViewController {
                 
                 if currentOperation == Operation.Multiply{
                     result = "\(Double(leftVS)! * Double(rightVS)!)"
-                    
                 }else if currentOperation == Operation.Divide{
-                     result = "\(Double(leftVS)! / Double(rightVS)!)"
+                    result = "\(Double(leftVS)! / Double(rightVS)!)"
                 }else if currentOperation == Operation.Add{
-                     result = "\(Double(leftVS)! + Double(rightVS)!)"
+                    result = "\(Double(leftVS)! + Double(rightVS)!)"
                 }else if currentOperation == Operation.Substract{
-                     result = "\(Double(leftVS)! - Double(rightVS)!)"
+                    result = "\(Double(leftVS)! - Double(rightVS)!)"
                 }
                 
                 leftVS = result
                 outputLbl.text = result
             }
             currentOperation = operation
-        
+            
         }else{
             leftVS = runningNumber
             runningNumber = ""
             currentOperation = operation
         }
+        
+        
     }
     
+    @IBAction func ClearBtnPress(_ sender: Any) {
+        playSound()
+        clearAll()
+    }
+    
+    func clearAll(){
+        leftVS = ""
+        rightVS = ""
+        runningNumber = ""
+        currentOperation = .Empty
+        outputLbl.text = "0"
+        
+    }
 }
 

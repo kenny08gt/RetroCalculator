@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_5" orientation="portrait">
+    <device id="ipad9_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,27 +18,27 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg" translatesAutoresizingMaskIntoConstraints="NO" id="wAU-KR-YjF">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchground" translatesAutoresizingMaskIntoConstraints="NO" id="8tn-Iz-tF3">
-                                <rect key="frame" x="0.0" y="663" width="414" height="73"/>
+                                <rect key="frame" x="0.0" y="695" width="1024" height="73"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="73" id="HIy-6b-utX"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="6Zb-nV-DnN">
-                                <rect key="frame" x="87" y="28" width="240" height="53"/>
+                                <rect key="frame" x="392" y="28" width="240" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="gEb-36-tpq"/>
                                     <constraint firstAttribute="width" constant="240" id="znn-FM-T56"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="9cs-iJ-EWh">
-                                <rect key="frame" x="87" y="129" width="240" height="128"/>
+                                <rect key="frame" x="392" y="129" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="Ojp-2L-Gqc"/>
                                     <constraint firstAttribute="height" constant="128" id="k0e-Zm-sBz"/>
