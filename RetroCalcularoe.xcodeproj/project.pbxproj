@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1709B3EA1E5375F4004C6750 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1709B3E91E5375F4004C6750 /* btn.wav */; };
 		17CB8F311E528D8C00A3F86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB8F301E528D8C00A3F86E /* AppDelegate.swift */; };
 		17CB8F331E528D8C00A3F86E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CB8F321E528D8C00A3F86E /* ViewController.swift */; };
 		17CB8F361E528D8C00A3F86E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CB8F341E528D8C00A3F86E /* Main.storyboard */; };
 		17CB8F381E528D8C00A3F86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CB8F371E528D8C00A3F86E /* Assets.xcassets */; };
 		17CB8F3B1E528D8C00A3F86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CB8F391E528D8C00A3F86E /* LaunchScreen.storyboard */; };
+		17CB8F431E529D8F00A3F86E /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17CB8F421E529D8F00A3F86E /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1709B3E91E5375F4004C6750 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		17CB8F2D1E528D8C00A3F86E /* RetroCalcularoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalcularoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CB8F301E528D8C00A3F86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17CB8F321E528D8C00A3F86E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		17CB8F371E528D8C00A3F86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17CB8F3A1E528D8C00A3F86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17CB8F3C1E528D8C00A3F86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CB8F421E529D8F00A3F86E /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		17CB8F2F1E528D8C00A3F86E /* RetroCalcularoe */ = {
 			isa = PBXGroup;
 			children = (
+				1709B3E91E5375F4004C6750 /* btn.wav */,
+				17CB8F421E529D8F00A3F86E /* Minecraft.ttf */,
 				17CB8F301E528D8C00A3F86E /* AppDelegate.swift */,
 				17CB8F321E528D8C00A3F86E /* ViewController.swift */,
 				17CB8F341E528D8C00A3F86E /* Main.storyboard */,
@@ -123,8 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1709B3EA1E5375F4004C6750 /* btn.wav in Resources */,
 				17CB8F3B1E528D8C00A3F86E /* LaunchScreen.storyboard in Resources */,
 				17CB8F381E528D8C00A3F86E /* Assets.xcassets in Resources */,
+				17CB8F431E529D8F00A3F86E /* Minecraft.ttf in Resources */,
 				17CB8F361E528D8C00A3F86E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				17CB8F411E528D8C00A3F86E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
